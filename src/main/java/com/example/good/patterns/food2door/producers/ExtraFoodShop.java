@@ -7,10 +7,9 @@ public class ExtraFoodShop implements Producer{
     private final String name = "ExtraFoodShop";
 
     @Override
-    public boolean process(OrderRequest orderRequest) {
+    public void process(OrderRequest orderRequest) {
         System.out.println("Producent " + name + " zrealizował następujące zamówienie:");
         System.out.println(orderRequest);
-        return true;
     }
 
     @Override

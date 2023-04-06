@@ -2,7 +2,6 @@ package com.example.good.patterns.food2door;
 
 import com.example.good.patterns.food2door.producers.ExtraFoodShop;
 import com.example.good.patterns.food2door.producers.HealthyShop;
-import com.example.good.patterns.food2door.producers.Producer;
 
 import java.time.LocalDateTime;
 
